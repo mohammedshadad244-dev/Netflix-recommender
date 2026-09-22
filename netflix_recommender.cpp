@@ -13,13 +13,10 @@ cout << "========================================" << endl;
     cout << "========================================" << endl;
     cout << endl;
 
-    cout << "Press Enter to continue...";
-    cin.ignore();  // Wait for user to press Enter
-
     //Get the user name
 
 string userName;
-    cout << "Please enter your username!" << endl;
+    cout << "Please enter your name!" << endl;
     cin >> userName;
     cout << "Hello " << userName << "! Let's find a movie for you" << endl << endl;
 
